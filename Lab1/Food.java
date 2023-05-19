@@ -1,9 +1,9 @@
 package Lab1;
 
 public class Food {
-    int fid;
-    String foodName;
-    double price;
+    private int fid;
+    private String foodName;
+    private double price;
 
 
     public Food(int fid, String foodName, double price) {
