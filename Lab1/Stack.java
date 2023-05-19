@@ -45,7 +45,8 @@ public class Stack {
     }
 
 
-    public void print() {
+    public void display() {
+        System.out.println("Item in the stack are: ");
         for (int i = top; i >= 0; i--)
             System.out.println("    " + f[i].toString());
     }
