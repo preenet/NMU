@@ -57,6 +57,8 @@ public class Main {
 	    catch (FileNotFoundException e) {
 	        e.printStackTrace();
 	    }
+		System.out.println( myQueue.isEmpty());
+		//myQueue.display();
     }// end main
     
 }// end class Main
