@@ -56,6 +56,7 @@ public class LL {
         System.out.println();
     }
 
+
     public static void main(String[] args) {
         LL linkedList = new LL();
         linkedList.insert(5);

@@ -4,6 +4,7 @@ public class Stack {
     int top;
     int maxsize;
     Food[] f;
+    
 
     public Stack(int size) {
         maxsize = size;

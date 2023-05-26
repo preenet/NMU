@@ -37,7 +37,7 @@ public class Main {
 
 	        Scanner sc = new Scanner(f2);
 			// skip the first line
-			System.out.println(sc.nextLine());
+			sc.nextLine();
 
 	        while (sc.hasNextLine()) {
 	            String dataLine = sc.nextLine();
