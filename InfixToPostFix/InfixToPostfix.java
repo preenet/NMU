@@ -58,7 +58,7 @@ public class InfixToPostfix {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+    
         System.out.print("Enter an infix expression: ");
         String infixExpression = scanner.nextLine();
 
